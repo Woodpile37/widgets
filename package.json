@@ -42,8 +42,6 @@
     "lodash": "^4.17.15",
     "moment": "^2.26.0",
     "numeral": "^2.0.6",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
     "vue-google-charts": "^0.3.2",
     "vue-i18n": "^9.2.2"
   }
