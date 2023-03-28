@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,10 +41,12 @@
     "graphql": "^14.5.8",
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.5.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "moment": "^2.26.0",
     "numeral": "^2.0.6",
     "vue-google-charts": "^0.3.2",
-    "vue-i18n": "^9.2.2"
-  }
+    "vue-i18n": "^8.15.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
